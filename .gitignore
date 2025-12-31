@@ -1,0 +1,89 @@
+# ==========================================
+# Build Artifacts (Catch all services)
+# ==========================================
+**/target/
+**/build/
+**/bin/
+**/dist/
+**/out/
+
+# ==========================================
+# Java / Spring Boot (api-gateway & auth-service)
+# ==========================================
+.mvn/
+**/mvnw
+**/mvnw.cmd
+**/*.jar
+**/*.war
+**/*.zip
+**/*.tar.gz
+HELP.md
+
+# ==========================================
+# Python (webbot-service)
+# ==========================================
+**/__pycache__/
+**/*.py[cod]
+**/*$py.class
+**/.venv/
+**/venv/
+**/env/
+**/.env
+**/*.egg-info/
+**/.pytest_cache/
+**/uv.lock
+
+# ==========================================
+# React / Vite (chat-app)
+# ==========================================
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Dependencies
+**/node_modules/
+
+# Build output
+dist-ssr
+*.local
+
+# Editor directories and files
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# ==========================================
+# Secrets & Environment Variables
+# ==========================================
+secrets/*.env
+!secrets/*.env.example
+
+# ==========================================
+# IDEs and Editors
+# ==========================================
+.idea/
+*.iws
+*.iml
+*.ipr
+
+.vscode/
+!.vscode/extensions.json
+
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+# System files
+.DS_Store
+Thumbs.db

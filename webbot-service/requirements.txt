@@ -1,0 +1,13 @@
+fastapi
+uvicorn
+
+langgraph
+langchain
+langchain-google-genai
+langchain-community
+langchainhub
+
+pydantic
+
+beautifulsoup4
+ddgs

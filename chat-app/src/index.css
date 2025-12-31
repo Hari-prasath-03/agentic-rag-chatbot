@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: var(--color-green-500);
+  --color-primary-hover: var(--color-green-600);
+
+  --color-bg: var(--color-neutral-950);
+  --color-bg-sec: var(--color-neutral-900);
+  --color-bg-accent: var(--color-neutral-800);
+
+  --color-text: var(--color-neutral-100);
+  --color-text-muted: var(--color-neutral-400);
+}
+
+.slim-scrollbar {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(156, 163, 175, 0.3) transparent;
+}
